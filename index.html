@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DANI GABRIEL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio  autoplay>
+        <source src="dani.mp3" type="audio/mp3">
+    </audio>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono"  alt="menu">
+            </label>
+            <nav class="navbar">  
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">SERVICIOS</a></li>
+                    <li><a href="#">PRODUCTOS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                 <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                 </tr>   
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <span>Ofertas</span>
+                <h1>Frutas y Verduras</h1>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. 
+                </p>
+                <a href="#" class="btn-1">Informacion</a>
+            </div>
+            <div class="header-img">
+                <img src="images/rigth.png" alt="">
+            </div>
+
+        </div>
+    </header>
+
+    <section class="information container">
+        <div class="information-content">
+
+            <div class="information-1">
+                <img src="images/i1.svg" alt="">
+                <h3>TIENDA </h3>
+                <p>
+                Visita una de nuestras succursales.
+                </p>
+            </div>
+
+            <div class="information-1">
+                <img src="images/i2.svg" alt="">
+                <h3>METODOS DE PAGO </h3>
+                <p>
+                Aceptamos todas las tarjetas de credito y debito.
+                </p>
+            </div>
+
+            <div class="information-1">
+                <img src="images/i3.svg" alt="">
+                <h3>ENVIO</h3>
+                <p>
+                Envio gratis.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="oferts container">
+        <div class="ofert-1">
+            <img src="images/f1.png" alt="">
+            <h3>Oferta</h3>
+            <p>FRESA</p>
+        </div>
+
+        <div class="ofert-1">
+            <img src="images/f2.png" alt="">
+            <h3>Oferta</h3>
+            <p>PIÑA</p>
+        </div>
+
+
+        <div class="ofert-1">
+            <img src="images/f3.png" alt="">
+            <h3>Oferta</h3>
+            <p>UVA</p>
+        </div>
+
+
+        <div class="ofert-1">
+            <img src="images/f4.png" alt="">
+            <h3>Oferta</h3>
+            <p>CEREZA</p>
+        </div>
+
+
+    </section>
+    <main class="products container" id="lista-1">
+        <h2>Productos Destacados</h2>
+
+        <div class="product-content">
+            <div class="product">
+                <img src="images/pr1.png" alt="">
+                <div class="product-txt">
+                    <h3>Manzana Golden</h3>
+                    <p class="precio">$18.90kg</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr2.png" alt="">
+                <div class="product-txt">
+                    <h3>Mandarina premium</h3>
+                    <p class="precio">$45kg</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr3.png" alt="">
+                <div class="product-txt">
+                    <h3>Arandano</h3>
+                    <p class="precio">$90kg</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr4.png" alt="">
+                <div class="product-txt">
+                    <h3>Moras</h3>
+                    <p class="precio">$48.90kg</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr5.png" alt="">
+                <div class="product-txt">
+                    <h3>Fresa</h3>
+                    <p class="precio">$120kg</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr6.png" alt="">
+                <div class="product-txt">
+                    <h3>Platano</h3>
+                    <p class="precio">$30kg</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/pr7.png" alt="">
+                <div class="product-txt">
+                    <h3>Piña</h3>
+                    <p class="precio">$20kg</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="7">Agregar</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="service">
+        <div class="service-1">
+            <img class="store" src="images/1.png" alt="">
+        </div>
+
+        <div class="service-2">
+            <img class="store" src="images/2.png" alt="">
+        </div>
+
+        <div class="service-3">
+            <img class="store" src="images/3.png" alt="">
+        </div>
+
+    </section>
+<section class="contact container">
+    <form>
+        <input type="email" placeholder="corrreo">
+        <input type="submit" class="btn-3">
+    </form>
+
+
+</section>
+<footer class="footer">
+    <div class="footer-content container">
+        <div class="link">
+            <h3>ESTADOS</h3>
+           <ul>
+            <li><a href="#">Veracruz</a></li>
+            <li><a href="#">Distrito</a></li>
+            <li><a href="#">Oaxaca</a></li>
+            <li><a href="#">Puebla</a></li>
+           </ul> 
+        </div>
+
+        <div class="link">
+            <h3>Redes sociales</h3>
+           <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">instagram</a></li>
+            <li><a href="#">X</a></li>
+            <li><a href="#"></a></li>
+           </ul> 
+        </div>
+
+        <div class="link">
+            <h3>ubicacion</h3>
+           <ul>
+            <li><a href="#">Francisco Diaz, </a></li>
+            <li><a href="#">#123,</a></li>
+            <li><a href="#">Gustavo A.Madero,</a></li>
+            <li><a href="#">Ciudad de Mexico</a></li>
+           </ul> 
+        </div>
+
+        <div class="link">
+            <h3>Autor</h3>
+           <ul>
+            <li><a href="#">Daniel</a></li>
+            <li><a href="#">Gabriel</a></li>
+            <li><a href="#">Gregorio</a></li>
+            <li><a href="#"></a></li>
+           </ul> 
+        </div>
+    </div>
+
+
+</footer>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
